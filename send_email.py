@@ -1,12 +1,13 @@
 from email.message import EmailMessage
 import ssl
 import smtplib
-
+import os
 
 def send_email_report(email_receiver, body, subject):
-    email_sender = 'aonetworkscanner@gmail.com'
-    email_sender_password = 'otgf zwou mxwm bxuy'
-
+    # add here the credentials of the email you want sending you updates.
+    email_sender = 'youremail@gmail.com'
+    email_sender_password ="yourpassword"
+    
     em = EmailMessage()
     em["From"] = email_sender
     em['To'] = email_receiver
