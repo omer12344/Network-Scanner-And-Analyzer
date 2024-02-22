@@ -1,5 +1,3 @@
-Network Scanner and Sniffer Tool
-Overview
 This project comprises a comprehensive suite of tools designed for network scanning and packet sniffing. Utilizing the Python programming language and leveraging libraries such as Scapy and Netifaces, it offers functionalities for discovering devices on a local network, identifying open ports and services, and analyzing network traffic to detect potential security threats. The results of scans and analyses are conveniently sent to specified email addresses, providing users with detailed reports on their network's status and security posture.
 
 Features
